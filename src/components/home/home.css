@@ -5,7 +5,7 @@
   
 }
 .left{
-   
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,6 +37,9 @@ p{
 
 
 }
+form label{
+    width:25rem;
+}
 label{
     font-size: 16px;
     
@@ -46,6 +49,7 @@ input{
     padding: 4px 5px;
     outline: none;
     margin:2px 0 ;
+    margin-bottom: 8px;
 
 }
 button{
@@ -55,8 +59,9 @@ button{
     font-weight: bold;
     border: none;
     border-radius: 5px;
-
+    font-size: 17px;
     background-color: rgb(39, 38, 38);
+    height: 2.2rem;
 }
 button:hover{
    cursor: pointer;

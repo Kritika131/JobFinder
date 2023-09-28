@@ -5,7 +5,7 @@ import './searchres.css'
 import { useNavigate } from 'react-router-dom'
 
 const SearchResult = () => {
-    const [id,setId] = useState(null);
+    const [id,setId] = useState(null); 
 
     const apiData = useSelector(selectApiData);
     const no_of_res = apiData.length;
@@ -26,14 +26,14 @@ const SearchResult = () => {
             console.log(err.message);
         }
 
-    },[id])
+    },[]) 
 
   return (
     <div className='search_container'>
     
        {
         apiData ? (
-       <h2>  Showing {no_of_res} jobs</h2>
+       <h2>  Showing {no_of_res} jobs </h2>
 
         ):(
          <span>No Record Found!</span>
@@ -58,9 +58,17 @@ const SearchResult = () => {
                 </div>
             ))
         }
-        {/* </div> */}
+       {/* <div className="">
+        <p>Job_title - web developer</p>
+        <p>Job_title - web developer</p>
+        <p>Job_title - web developer</p>
+        <p>Job_title - web developer</p>
+        <button>Job Details</button>
+
+       </div> */}
+
     </div>
   )
 }
 
-export default SearchResult
+export default SearchResult;

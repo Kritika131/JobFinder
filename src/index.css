@@ -6,3 +6,76 @@
   /* opacity: 0.4; */
   
 }
+
+@media only screen and (min-width:480px) and (max-width:768px){
+  .left{
+    padding: 12px;
+  }
+  .left h1{
+    font-size: 3.3rem;
+  }
+  .left p{
+    font-size: 26px;
+  }
+
+  button{
+    width:120px;
+    height: 40px;
+    font-size: 22px;
+  }
+  .left form{
+    width: 24rem;
+  }
+  .left form label{
+    font-size: 22px;
+  }
+  .left form input{
+    height: 2.4rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    font-size: 22px;
+  }
+
+}
+@media only screen and (max-width:479px){
+  .left{
+    text-align: center;
+    margin-top: -14rem;
+    gap: 15px;
+  }
+  button{
+    width: 110px;
+    height: 35px;
+    font-size: 18px;
+  }
+  .left h1{
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .left p{
+    font-size:22px;
+    font-weight:200;
+  }
+  .left form{
+    width:16.5rem;
+  }
+  .left form label{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 3px;
+  }
+  .left form input{
+    width: 100%;
+    padding: 3px 8px;
+    outline: none;
+    margin: 2px 0;
+    height: 2rem;
+    border: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  }
+
+
+  
